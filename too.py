@@ -12,7 +12,7 @@ def main():
     st.title("Greetings App")
 
     # Input for the variable 'name'
-    name = st.text_input("Enter your name:")
+    name = creds.name_b
 
     # Display the greeting message
     if name:
